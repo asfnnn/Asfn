@@ -16,3 +16,7 @@ void awal(Stack *S) {
 int penuh(Stack *S){
     return (S->Count == MAXSTACK);
 }
+
+int kosong(Stack *S){
+    return (S->Count == 0);
+}
